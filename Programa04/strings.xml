@@ -1,0 +1,9 @@
+<resources>
+    <!-- Hernández Hernández Luis Fernando-->
+    <string name="app_name">Programa04</string>
+    <string name="botonec" >Estados y Capitales</string>
+    <string name="creditos" >Creditos</string>
+    <string name="creador" >Hernández Hernández Luis Fernando</string>
+    <string name="btnregresar" >Regresar</string>
+    <string name="tituloec" >Estados/Capitales</string>
+</resources>

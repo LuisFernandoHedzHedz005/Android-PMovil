@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Hernández Hernández Luis Fernando-->
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"> <LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:layout_marginTop="20dp"
+    android:layout_marginBottom="20dp">
+
+    <Button
+        android:layout_width="0dp" android:layout_height="wrap_content"
+        android:layout_weight="1" android:text="Anterior" android:onClick="atras" android:layout_marginEnd="8dp"/> <Button
+    android:layout_width="0dp"
+    android:layout_height="wrap_content"
+    android:layout_weight="1"
+    android:text="Siguiente"
+    android:onClick="adelante" android:layout_marginStart="8dp"/> </LinearLayout>
+
+    <ImageView
+        android:id="@+id/img1" android:layout_width="match_parent"
+        android:layout_height="300dp" android:scaleType="centerCrop" android:src="@drawable/batman" android:layout_marginBottom="20dp"/> <TextView
+        android:id="@+id/tv1" android:layout_width="match_parent"
+        android:layout_height="wrap_content" android:text="Descripción de la imagen" android:gravity="center" android:textSize="20sp" android:textStyle="bold" android:textColor="@android:color/black"/> </LinearLayout>
